@@ -1,0 +1,12 @@
+Breakpoint 1 at 0x401471: file c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c, line 13.
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.exe 
+[New Thread 7100.0x2790]
+[New Thread 7100.0x13ac]
+
+Breakpoint 1, main ()
+    at c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:13
+13	    input_string(main_string, sub_string);
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x77e5ff45 in ?? ()

@@ -1,0 +1,40 @@
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c: In function 'input_string':
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:21:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the main string: ");
+     ^~~~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:21:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:21:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:22:5: warning: implicit declaration of function 'fgets' [-Wimplicit-function-declaration]
+     fgets(a, 100, stdin);
+     ^~~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:22:19: error: 'stdin' undeclared (first use in this function)
+     fgets(a, 100, stdin);
+                   ^~~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:22:19: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c: In function 'output':
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:51:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The substring '%s' is found in the string '%s' at index %d.\n", substring, string, index);
+         ^~~~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:51:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:53:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The substring '%s' is not found in the string '%s'.\n", substring, string);
+         ^~~~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:53:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c: In function 'input_string':
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:21:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the main string: ");
+     ^~~~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:21:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:21:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:22:5: warning: implicit declaration of function 'fgets' [-Wimplicit-function-declaration]
+     fgets(a, 100);
+     ^~~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c: In function 'output':
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:50:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The substring '%s' is found in the string '%s' at index %d.\n", substring, string, index);
+         ^~~~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:50:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:52:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The substring '%s' is not found in the string '%s'.\n", substring, string);
+         ^~~~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem06.c:52:9: note: include '<stdio.h>' or provide a declaration of 'printf'

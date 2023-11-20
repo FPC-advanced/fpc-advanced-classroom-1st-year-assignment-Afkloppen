@@ -1,0 +1,4 @@
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem03.c: In function 'main':
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem03.c:45:6: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     n=input_number;
+      ^

@@ -1,0 +1,18 @@
+Breakpoint 1 at 0x401477: file c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01\problem08.c, line 7.
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01\problem08.exe 
+[New Thread 5820.0x2fd0]
+[New Thread 5820.0x568]
+
+Breakpoint 1, 0x00401477 in main ()
+    at c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01\problem08.c:7
+7	{
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:172
+172	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
+A debugging session is active.
+
+	Inferior 1 [process 5820] will be killed.
+
+Quit anyway? (y or n) 

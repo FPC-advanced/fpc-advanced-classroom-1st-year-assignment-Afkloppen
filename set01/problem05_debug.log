@@ -1,0 +1,155 @@
++l
+1	#include<stdio.h>
+2	
+3	int input();
+4	int compare(int a, int b, int c, int largest);
+5	void output(int a, int b, int c, int largest);
+6	
+7	int main()
+8	{
+9	    int a,b,c,largest;
+10	    a=input();
++r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem05.exe 
+[New Thread 12220.0xba8]
+[New Thread 12220.0x2788]
+[Inferior 1 (process 12220) exited normally]
++n
+The program is not being run.
++n
+The program is not being run.
++finish
+The program is not being run.
++cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+"c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01": Invalid argument.
++gdb ./problem06
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem06_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem05_debug.log.
++set trace-commands on
++l
+11	    b=input();
+12	    c=input();
+13	    largest=compare(a,b,c,largest);
+14	    output(a,b,c,largest);
+15	    return 0;
+16	
+17	}
+18	
+19	int input()
+20	{
++r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem05.exe 
+[New Thread 9772.0x348]
+[New Thread 9772.0x1998]
+[Inferior 1 (process 9772) exited normally]
++finish
+The program is not being run.
++`cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+Undefined command: "".  Try "help".
++gdb ./problem07
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem07_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem05_debug.log.
++set trace-commands on
++l
+21	    int x;
+22	    printf("Enter the value of x\n");
+23	    scanf("%d", &x);
+24	    return x;
+25	}
+26	int compare(int a, int b, int c, int largest)
+27	{
+28	    if(a>b && a>c)
+29	    {
+30	        largest=a;
++cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+"c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01": Invalid argument.
++gdb ./problem07
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem07_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem05_debug.log.
++set trace-commands on
++l
+31	        return largest;
+32	    }
+33	    if(b>a && b>c)
+34	    {
+35	        largest=b;
+36	        return largest;
+37	    }
+38	    else if (c>a && c>b)
+39	    {
+40	        largest=c;
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/16/2023, 4:27:46 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+"c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01": Invalid argument.
++gdb ./problem08
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem08_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem05_debug.log.
++set trace-commands on
++l
+41	        return largest;
+42	    }
+43	}
+44	void output(int a,int b, int c, int largest)
+45	{
+46	    printf("The largest is %d", largest);
+47	
+48	}
++r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem05.exe 
+[New Thread 4508.0x2e6c]
+[New Thread 4508.0x30fc]
+[Inferior 1 (process 4508) exited normally]
++cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+"c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01": Invalid argument.
++gdb ./problem08
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem08_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem05_debug.log.
++set trace-commands on
++l
+Line number 49 out of range; c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01\problem05.c has 48 lines.
++r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem05.exe 
+[New Thread 12452.0xbbc]
+[New Thread 12452.0x116c]
+[Inferior 1 (process 12452) exited normally]
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/20/2023, 10:03:07 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".

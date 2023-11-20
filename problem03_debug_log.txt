@@ -1,0 +1,10 @@
+Breakpoint 1 at 0x401508: file c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem03.c, line 45.
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem03.exe 
+[New Thread 13712.0x1ba8]
+[New Thread 13712.0x11b0]
+
+Breakpoint 1, main ()
+    at c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem03.c:45
+45	    n=input_number;
+Continuing.
+[Inferior 1 (process 13712) exited normally]

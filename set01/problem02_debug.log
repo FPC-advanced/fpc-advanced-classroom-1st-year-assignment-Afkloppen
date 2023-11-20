@@ -1,0 +1,14 @@
++l
+1	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++l
+1	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem02.exe 
+[New Thread 5632.0x2c0c]
+[New Thread 5632.0x26cc]
+[Inferior 1 (process 5632) exited normally]
++n
+The program is not being run.
++finish
+The program is not being run.
++q

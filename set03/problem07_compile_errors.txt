@@ -1,0 +1,11 @@
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem07.c: In function 'find_length':
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem07.c:38:17: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     l->distance=sqrt(pow((l->p2.x-l->p1.x),2)+pow((l->p2.y-l->p1.y),2));
+                 ^~~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem07.c:38:17: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem07.c:38:17: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem07.c:38:22: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+     l->distance=sqrt(pow((l->p2.x-l->p1.x),2)+pow((l->p2.y-l->p1.y),2));
+                      ^~~
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem07.c:38:22: warning: incompatible implicit declaration of built-in function 'pow'
+c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set03\problem07.c:38:22: note: include '<math.h>' or provide a declaration of 'pow'
