@@ -1,0 +1,13 @@
++l
+1	// 1. Write a C program to print your name.
+2	#include<stdio.h>
+3	int main()
+4	{
+5	    printf("Nandini");
+6	    return 0;
+7	}+r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem01.exe 
+[New Thread 15468.0x31e4]
+[New Thread 15468.0x17a4]
+[Inferior 1 (process 15468) exited normally]
++q
