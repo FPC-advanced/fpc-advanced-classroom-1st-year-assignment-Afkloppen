@@ -7,7 +7,7 @@ int main()
     {
         int sum;
         sum=x+y;
-        printf("The sum is %d", sum\n);
+        printf("The sum is %d\n",sum);
     }
     return 0;
 }
