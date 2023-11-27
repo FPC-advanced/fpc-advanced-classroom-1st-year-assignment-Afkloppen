@@ -25,5 +25,5 @@ int main()
     printf("Enter the third fraction(num and den):\n");
     scanf("%d%d",&fraction3.num,&fraction3.den);
     smallestFraction=findSmallestFraction(findSmallestFraction(fraction1,fraction2),fraction3);
-    printf("The smallest fraction is %d%d",)
+    printf("The smallest fraction is %d%d",smallestFraction);
 }
