@@ -11,3 +11,91 @@ No symbol table is loaded.  Use the "file" command.
 +r
 Starting program:  
 No executable specified, use `target exec'.
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/27/2023, 9:46:12 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/27/2023, 9:46:57 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++l
+No symbol table is loaded.  Use the "file" command.
++r
+Starting program:  
+No executable specified, use `target exec'.
++l
+No symbol table is loaded.  Use the "file" command.
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/27/2023, 9:50:13 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+"c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01": Invalid argument.
++gdb ./problem11
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem11_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem10_debug.log.
++set trace-commands on
++l
+No symbol table is loaded.  Use the "file" command.
++gcc problem10.c
+Undefined command: "gcc".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/27/2023, 9:54:54 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+"c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01": Invalid argument.
++gdb ./problem11
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem11_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem10_debug.log.
++set trace-commands on
++l
+No symbol table is loaded.  Use the "file" command.
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/27/2023, 9:55:41 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+"c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01": Invalid argument.
++gdb ./problem12
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem12_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem10_debug.log.
++set trace-commands on
++l
+No symbol table is loaded.  Use the "file" command.
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/27/2023, 9:57:42 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++quit
