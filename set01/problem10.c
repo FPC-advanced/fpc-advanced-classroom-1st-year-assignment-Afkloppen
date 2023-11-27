@@ -37,5 +37,5 @@ int stringcompare(char *string1, char *string2)
 }
 void output(char *string1, char *string2, int result)
 {
-    printf("The largest of %s and %s is %s", string1, string2);
+    printf("The largest of %s and %s is %s\n", string1, string2);
 }
