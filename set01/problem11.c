@@ -37,5 +37,5 @@ Complex find_sum(Complex c1, Complex c2)
 }
 void output(Complex c1, Complex c2,Complex sum)
 {
-    printf("The sum is %.1f+i%.1f", sum.real,sum.img);
+    printf("The sum is %.1f+i%.1f\n", sum.real,sum.img);
 }
