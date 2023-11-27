@@ -71,3 +71,97 @@ Already logging to problem03_debug.log.
 18	    int x;
 19	    printf("Enter the value of x\n");
 20	    scanf("%d",&x);
++l
+1	#include<stdio.h>
+2	int input();
+3	int add(int a, int b);
+4	void output(int a, int b);
+5	
+6	int main()
+7	{
+8	    int a,b,sum;
+9	 a=input();
+10	 b=input();
++r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem03.exe 
+[New Thread 4504.0x19e8]
+[New Thread 4504.0x2280]
+[Inferior 1 (process 4504) exited normally]
++r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem03.exe 
+[New Thread 16216.0x2b58]
+[New Thread 16216.0x2528]
+[Inferior 1 (process 16216) exited normally]
++git commit -m "committed 11/20/2023, 10:40:07 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+"c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01": Invalid argument.
++gdb ./problem03
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem03_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem03_debug.log.
++set trace-commands on
++l
+11	put();
+12	 sum=add(a,b);
+13	 output(a,b,sum);
+14	 return 0;
+15	}
+16	
+17	int input()
+18	{
+19	    int x;
+20	    printf("Enter the value of x\n");
++r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem03.exe 
+[New Thread 5376.0x23ec]
+[New Thread 5376.0x2d40]
+[Inferior 1 (process 5376) exited normally]
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/20/2023, 10:41:05 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01"
+"c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01": Invalid argument.
++gdb ./problem04
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem04_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem03_debug.log.
++set trace-commands on
++l
+21	("%d",&x);
+22	    return x;
+23	}
+24	int add(int a, int b)
+25	 {
+26	    int sum;
+27	    sum=a+b;
+28	    return sum;
+29	}
+30	void output(int a, int b,int sum)
++r
+Starting program: c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01/./problem03.exe 
+[New Thread 16324.0x1c44]
+[New Thread 16324.0x176c]
+[Inferior 1 (process 16324) exited normally]
++l
+31	 int b,int sum)
+32	{
+33	    printf("The sum of %d and %d is %d",a,b,sum);
+34	}+l
+Line number 35 out of range; c:\Users\Dell\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Afkloppen\set01\problem03.c has 32 lines.
++q

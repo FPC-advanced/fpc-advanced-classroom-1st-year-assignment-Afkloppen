@@ -23,7 +23,7 @@ int input()
 }
 void add(int a, int b, int *sum)
  {
-    sum=a+b;
+    *sum=a+b;
     
 }
 void output(int a, int b, int sum)
