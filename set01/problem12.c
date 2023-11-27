@@ -18,8 +18,7 @@ int main()
 }
 void input_n_complex(int n, Complex c[n])
 {
-    int n;
-    
+     
     int i;
     for(i=0;i<n;i++){
     printf("Enter the value\n", n);
